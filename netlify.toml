@@ -1,0 +1,17 @@
+[build]
+  functions = "api"
+
+[[redirects]]
+  from = "/pins"
+  to = "/.netlify/functions/pins"
+  status = 200
+
+[[redirects]]
+  from = "/users"
+  to = "/.netlify/functions/users"
+  status = 200
+
+[[redirects]]
+  from = "/boards"
+  to = "/.netlify/functions/boards"
+  status = 200
